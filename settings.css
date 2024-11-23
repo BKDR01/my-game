@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Joti+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #004047;
+    font-family: "Roboto Mono", monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+header{
+    width: 1500px;
+    height: 800px;
+    /* border: 1px solid red; */
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    gap: 56px;
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1500px;
+    border: 1px solid white;
+    margin: 0 auto;
+}
+.two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1500px;
+    border: 1px solid white;
+    margin: 0 auto;
+}
+.drop{
+    height: 40px;
+    align-content: center;
+}
+.strelka {
+    display: inline-block;
+    font-size: 20px;
+    transform: rotate(0deg);
+    align-content: center;
+}
+.drop:hover .strelka{
+    transform: rotate(180deg);
+    transition: 0.5s ease;
+}
+.drop:hover .down{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    position: absolute;
+    top: 327px;
+    left: 1555px;
+}
+.down{
+    display: none;
+}
+.down li{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+.down li:hover{
+    background-color: #004047;
+    border: 1px solid white;
+    transition: 0.5s;
+    color: white;
+}
+.drop2{
+    height: 40px;
+    align-content: center;
+}
+.strelka2{
+    display: inline-block;
+    font-size: 20px;
+    transform: rotate(0deg);
+    align-content: center;
+}
+.drop2:hover .strelka2{
+    transform: rotate(180deg);
+    transition: 0.5s ease;
+}
+.drop2:hover .down2{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    position: absolute;
+    top: 443px;
+    left: 1480px;
+}
+.down2{
+    display: none;
+}
+.down2 li{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+.down2 li:hover{
+    background-color: #004047;
+    border: 1px solid white;
+    transition: 0.5s;
+    color: white;
+}
+.thee{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1500px;
+    border: 1px solid white;
+}
+.bk{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.yon{
+    background-color: green;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+}
+.och{
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+}
+.yon2{
+    background-color: green;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 24px;
+    height: 100px;
+}
